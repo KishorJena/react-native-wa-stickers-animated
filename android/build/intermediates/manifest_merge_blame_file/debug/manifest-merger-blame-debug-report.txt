@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.jobeso.RNWhatsAppStickers" >
+5
+6    <uses-sdk android:minSdkVersion="21" />
+6-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+7
+8    <uses-permission
+8-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:6:5-7:36
+9        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+9-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:6:22-79
+10        tools:ignore="ScopedStorage" />
+10-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:7:5-33
+11    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+11-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:8:5-76
+11-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:8:22-73
+12    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+12-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:9:5-75
+12-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:9:22-72
+13    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+13-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:10:5-75
+13-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:10:22-72
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:12:5-80
+14-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:12:22-77
+15    <uses-permission
+15-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:13:5-14:40
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:13:22-78
+17        tools:ignore="ScopedStorage" />
+17-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:14:9-37
+18    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+18-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:15:5-76
+18-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:15:22-74
+19
+20    <application>
+20-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:16:1-47:15
+21        <service
+21-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:18:5-22:15
+22            android:name="com.jobeso.RNWhatsAppStickers.FileSystemObserverService"
+22-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:19:9-50
+23            android:enabled="true"
+23-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:20:9-31
+24            android:exported="true" >
+24-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:21:9-32
+25        </service>
+26
+27        <receiver
+27-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:24:5-31:16
+28            android:name="com.jobeso.RNWhatsAppStickers.StartupReceiver"
+28-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:25:8-39
+29            android:enabled="true"
+29-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:26:8-30
+30            android:exported="false" >
+30-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:27:8-32
+31            <intent-filter>
+31-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:28:9-30:25
+32                <action android:name="android.intent.action.BOOT_COMPLETED" />
+32-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:29:13-74
+32-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:29:21-72
+33            </intent-filter>
+34        </receiver>
+35
+36        <provider
+36-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:33:5-45:12
+37            android:name="com.jobeso.RNWhatsAppStickers.StickerContentProvider"
+37-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:35:9-47
+38            android:authorities="${applicationId}.stickercontentprovider"
+38-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:36:9-70
+39            android:enabled="true"
+39-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:37:9-31
+40            android:exported="true"
+40-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:38:9-32
+41            android:grantUriPermissions="true"
+41-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:40:9-43
+42            android:readPermission="com.whatsapp.sticker.READ"
+42-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:39:9-59
+43            android:requestLegacyExternalStorage="true" >
+43-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:34:9-52
+44            <meta-data
+44-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:42:5-44:46
+45                android:name="android.support.FILE_PROVIDER_PATHS"
+45-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:43:9-59
+46                android:resource="@xml/file_paths" />
+46-->C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:44:9-43
+47        </provider>
+48    </application>
+49
+50</manifest>

@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:3:1-40
+		INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:4:1-47
+	xmlns:android
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:6:5-7:36
+	tools:ignore
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:7:5-33
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:6:22-79
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:13:5-14:40
+	tools:ignore
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:14:9-37
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:15:22-74
+application
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:16:1-47:15
+service#com.jobeso.RNWhatsAppStickers.FileSystemObserverService
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:18:5-22:15
+	android:enabled
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:20:9-31
+	android:exported
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:21:9-32
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:19:9-50
+receiver#com.jobeso.RNWhatsAppStickers.StartupReceiver
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:24:5-31:16
+	android:enabled
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:26:8-30
+	android:exported
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:27:8-32
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:25:8-39
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:28:9-30:25
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:29:13-74
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:29:21-72
+provider#com.jobeso.RNWhatsAppStickers.StickerContentProvider
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:33:5-45:12
+	android:readPermission
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:39:9-59
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:34:9-52
+	android:grantUriPermissions
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:40:9-43
+	android:enabled
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:37:9-31
+	android:authorities
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:36:9-70
+	android:exported
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:38:9-32
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:35:9-47
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:42:5-44:46
+	android:resource
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:44:9-43
+	android:name
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml:43:9-59
+uses-sdk
+INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ksrje\OneDrive\Documents\StickerApp\node_modules\react-native-wa-stickers-animated\android\src\main\AndroidManifest.xml

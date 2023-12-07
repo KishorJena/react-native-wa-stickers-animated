@@ -1,0 +1,44 @@
+{
+  "name": "react-native-wa-stickers-animated",
+  "version": "2.1.0",
+  "description": "create sticker packs for whatsapp with your react-native app. Supports animated sticker dyanamiclly pack creation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrackerKSR/react-native-whatsapp-animated-stickers.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "whatsapp",
+    "sticker",
+    "stickers",
+    "stickerpack",
+    "pack", 
+    "animated",
+    "dyanammic"
+  ],
+  "author": "Johannes Sorg <johannes@sorg.me>",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^2.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/CrackerKSR/react-native-whatsapp-animated-stickers/issues"
+
+  },
+  "homepage": "https://github.com/CrackerKSR/react-native-whatsapp-animated-stickers#readme"
+}
